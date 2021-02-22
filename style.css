@@ -1,0 +1,55 @@
+*{
+  box-sizing:border-box;
+}
+
+body {
+  background-image: linear-gradient(lavender, peachpuff);
+  height:100vh;
+  margin:0;
+  padding:0;
+}
+
+div{
+  font-size: 5rem;
+  font-family: monospace;
+  color: lightcoral;
+  text-align: center;
+}
+
+.inhale{
+  position: absolute;
+  top:100px;
+  width:100%;
+  text-align: center;
+  animation: fade 6s ease infinite alternate;
+}
+
+.exhale{
+  position: absolute;
+  bottom:100px;
+  width:100%;
+  text-align: center;
+  animation: fade2 6s ease infinite alternate;
+}
+
+@keyframes fade {
+  0% {
+    display: block;
+    opacity: 1;
+  }
+  100%{
+    display: none;
+    opacity: 0;
+  }
+}
+
+@keyframes fade2 {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  100%{
+    display: block;
+    opacity: 1;
+  }
+}
