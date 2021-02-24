@@ -21,7 +21,7 @@ div{
   top:100px;
   width:100%;
   text-align: center;
-  animation: fade 6s ease infinite alternate;
+  animation: fade 5s ease infinite alternate;
 }
 
 .exhale{
@@ -29,7 +29,7 @@ div{
   bottom:100px;
   width:100%;
   text-align: center;
-  animation: fade2 6s ease infinite alternate;
+  animation: fade2 5s ease infinite alternate;
 }
 
 @keyframes fade {
